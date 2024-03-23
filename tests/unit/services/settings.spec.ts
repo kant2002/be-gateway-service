@@ -1,4 +1,4 @@
-import { AppUserActionHeaders, PlatformType } from '@diia-inhouse/types'
+import { AppUserActionHeaders, PlatformType } from '@kant2002-diia-inhouse/types'
 
 import NotificationService from '@services/notification'
 import SettingsService from '@services/settings'

@@ -45,11 +45,11 @@ The installation of dependencies consists of the following 2 steps:
 
 #### **1. Manually clone, build and link dependencies from `@diia-inhouse` scope**
 
-Each Diia service depends on dependencies from `@diia-inhouse/<package>` scope which are distributed across different repositories, are built separately, and aren't published into public npm registry.
+Each Diia service depends on dependencies from `@kant2002-diia-inhouse/<package>` scope which are distributed across different repositories, are built separately, and aren't published into public npm registry.
 
 The full list of such dependencies can be found in the target service `package.json` file in `dependencies` and `devDependencies` sections respectively.
 
-Detailed instructions on how to link dependencies from `@diia-inhouse/<package>` scope can be found in [LINKDEPS.md](https://github.com/diia-open-source/diia-setup-howto/tree/main/backend/LINKDEPS.md)
+Detailed instructions on how to link dependencies from `@kant2002-diia-inhouse/<package>` scope can be found in [LINKDEPS.md](https://github.com/diia-open-source/diia-setup-howto/tree/main/backend/LINKDEPS.md)
 
 #### **2. Install public npm dependencies and use those linked from `@diia-inhouse` scope**
 
@@ -57,7 +57,7 @@ In order to install and use the linked dependencies for `gateway-service` the fo
 
 ```
 $ cd ./gateway-service
-$ npm link @diia-inhouse/db @diia-inhouse/redis ... @diia-inhouse/<package-name>
+$ npm link @kant2002-diia-inhouse/db @kant2002-diia-inhouse/redis ... @kant2002-diia-inhouse/<package-name>
 ```
 
 In case all dependencies from `@diia-inhouse` scope are linked, and can be resolved, you will then have a complete list of dependencies installed for the service code base.

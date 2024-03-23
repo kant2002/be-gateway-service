@@ -1,4 +1,4 @@
-import { HttpStatusCode, SessionType } from '@diia-inhouse/types'
+import { HttpStatusCode, SessionType } from '@kant2002-diia-inhouse/types'
 
 export const expectedAuthResponse = {
     auth: {

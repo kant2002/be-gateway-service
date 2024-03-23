@@ -7,11 +7,11 @@ import { SemanticAttributes } from '@opentelemetry/semantic-conventions'
 import { find, isEmpty, pick } from 'lodash'
 import { Context } from 'moleculer'
 
-import { AppApiService, actionTypesJsonParse } from '@diia-inhouse/diia-app'
+import { AppApiService, actionTypesJsonParse } from '@kant2002-diia-inhouse/diia-app'
 
-import { RequestMechanism } from '@diia-inhouse/diia-metrics'
-import { AlsData, FileType, HttpMethod, HttpStatusCode, Logger } from '@diia-inhouse/types'
-import { NetworkUtils } from '@diia-inhouse/utils'
+import { RequestMechanism } from '@kant2002-diia-inhouse/diia-metrics'
+import { AlsData, FileType, HttpMethod, HttpStatusCode, Logger } from '@kant2002-diia-inhouse/types'
+import { NetworkUtils } from '@kant2002-diia-inhouse/utils'
 
 import ApiDocsRoute from './apiDocs/route'
 import RoutesBuilder from './routes'

@@ -43,19 +43,19 @@ jest.mock('@opentelemetry/api', () => {
         trace: traceMock,
     }
 })
-jest.mock('@diia-inhouse/diia-app', () => ({ actionTypesJsonParse }))
+jest.mock('@kant2002-diia-inhouse/diia-app', () => ({ actionTypesJsonParse }))
 jest.mock('@utils/index', () => utilsMock)
 
 import { AsyncLocalStorage } from 'async_hooks'
 
 import { SpanStatusCode } from '@opentelemetry/api'
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { MetricsService } from '@diia-inhouse/diia-metrics'
-import { ErrorCode } from '@diia-inhouse/errors'
-import { StoreService } from '@diia-inhouse/redis'
-import { mockClass, mockInstance } from '@diia-inhouse/test'
-import { AlsData, FileType, HttpMethod, HttpStatusCode } from '@diia-inhouse/types'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { MetricsService } from '@kant2002-diia-inhouse/diia-metrics'
+import { ErrorCode } from '@kant2002-diia-inhouse/errors'
+import { StoreService } from '@kant2002-diia-inhouse/redis'
+import { mockClass, mockInstance } from '@kant2002-diia-inhouse/test'
+import { AlsData, FileType, HttpMethod, HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import OpenApiGenerator from '@src/apiDocs/openApiGenerator'
 import ApiDocsRoute from '@src/apiDocs/route'

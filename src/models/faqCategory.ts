@@ -1,6 +1,6 @@
 import { Model, Schema, model, models } from 'mongoose'
 
-import { ProfileFeature, SessionType } from '@diia-inhouse/types'
+import { ProfileFeature, SessionType } from '@kant2002-diia-inhouse/types'
 
 import { FaqCategory, FaqItem, FaqParameter, FaqParameterType } from '@interfaces/models/faqCategory'
 

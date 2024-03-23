@@ -3,10 +3,10 @@ import { SemanticAttributes } from '@opentelemetry/semantic-conventions'
 import axios, { AxiosError, AxiosRequestConfig, AxiosResponse, RawAxiosRequestHeaders } from 'axios'
 import { identity } from 'lodash'
 
-import { RequestMechanism } from '@diia-inhouse/diia-metrics'
-import { EnvService } from '@diia-inhouse/env'
-import { ActionSession, HttpStatusCode, Logger } from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+import { RequestMechanism } from '@kant2002-diia-inhouse/diia-metrics'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { ActionSession, HttpStatusCode, Logger } from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import { Proxy, ProxyRequestHeaders, Response, RouteHeaderRawName } from '@src/interfaces'
 

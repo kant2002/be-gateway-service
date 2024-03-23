@@ -1,5 +1,5 @@
-import { Env } from '@diia-inhouse/env'
-import { ActionVersion, HttpMethod, SessionType } from '@diia-inhouse/types'
+import { Env } from '@kant2002-diia-inhouse/env'
+import { ActionVersion, HttpMethod, SessionType } from '@kant2002-diia-inhouse/types'
 
 import { RouteHeaderRawName } from '@interfaces/index'
 import { AppRoute } from '@interfaces/routes/appRoute'

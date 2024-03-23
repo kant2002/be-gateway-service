@@ -1,5 +1,5 @@
-import { StoreTag } from '@diia-inhouse/redis'
-import { PartnerActionArguments } from '@diia-inhouse/types'
+import { StoreTag } from '@kant2002-diia-inhouse/redis'
+import { PartnerActionArguments } from '@kant2002-diia-inhouse/types'
 
 export interface CustomActionArguments extends PartnerActionArguments {
     params: {

@@ -11,7 +11,7 @@ jest.mock('@models/errorTemplate', () => ({
     default: errorTemplateModel,
 }))
 
-jest.mock('@diia-inhouse/redis', () => ({
+jest.mock('@kant2002-diia-inhouse/redis', () => ({
     StoreTag: {
         ErrorTemplate: 'text',
     },
@@ -19,9 +19,9 @@ jest.mock('@diia-inhouse/redis', () => ({
 
 import { randomUUID } from 'crypto'
 
-import { MongoDBErrorCode } from '@diia-inhouse/db'
-import { ApiError, BadRequestError, ModelNotFoundError } from '@diia-inhouse/errors'
-import { StoreService, StoreTag } from '@diia-inhouse/redis'
+import { MongoDBErrorCode } from '@kant2002-diia-inhouse/db'
+import { ApiError, BadRequestError, ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import { StoreService, StoreTag } from '@kant2002-diia-inhouse/redis'
 
 import ErrorTemplateService from '@src/services/errorTemplate'
 

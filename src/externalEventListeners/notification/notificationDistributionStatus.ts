@@ -1,6 +1,6 @@
-import { EventBusListener, ExternalEvent, ExternalEventBus } from '@diia-inhouse/diia-queue'
-import { ValidationError } from '@diia-inhouse/errors'
-import { ValidationSchema } from '@diia-inhouse/validators'
+import { EventBusListener, ExternalEvent, ExternalEventBus } from '@kant2002-diia-inhouse/diia-queue'
+import { ValidationError } from '@kant2002-diia-inhouse/errors'
+import { ValidationSchema } from '@kant2002-diia-inhouse/validators'
 
 import NotificationService from '@services/notification'
 

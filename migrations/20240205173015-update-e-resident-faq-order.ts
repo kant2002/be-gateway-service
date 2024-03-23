@@ -1,7 +1,7 @@
 import 'module-alias/register'
 import { Db } from 'mongodb'
 
-import { SessionType } from '@diia-inhouse/types'
+import { SessionType } from '@kant2002-diia-inhouse/types'
 
 const collectionName = 'faqcategories'
 

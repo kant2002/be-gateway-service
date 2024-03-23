@@ -1,6 +1,6 @@
 import { Client, ItemBucketMetadata, UploadedObjectInfo } from 'minio'
 
-import { Logger } from '@diia-inhouse/types'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 import { File } from '@interfaces/index'
 import { AppConfig } from '@interfaces/types/config'

@@ -1,4 +1,4 @@
-import { BadRequestError } from '@diia-inhouse/errors'
+import { BadRequestError } from '@kant2002-diia-inhouse/errors'
 
 import { File } from '@interfaces/index'
 import { AppRoute } from '@interfaces/routes/appRoute'

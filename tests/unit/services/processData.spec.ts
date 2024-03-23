@@ -12,7 +12,7 @@ const awilixMock = {
 jest.mock('fs', () => fsMock)
 jest.mock('awilix', () => awilixMock)
 
-import { ActionSession, SessionType } from '@diia-inhouse/types'
+import { ActionSession, SessionType } from '@kant2002-diia-inhouse/types'
 
 import ProcessDataService from '@src/services/processData'
 

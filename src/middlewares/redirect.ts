@@ -1,4 +1,4 @@
-import { Logger } from '@diia-inhouse/types'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 import { Request, Response } from '@interfaces/index'
 

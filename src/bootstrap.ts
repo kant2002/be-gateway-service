@@ -1,4 +1,4 @@
-import { Application, ServiceContext } from '@diia-inhouse/diia-app'
+import { Application, ServiceContext } from '@kant2002-diia-inhouse/diia-app'
 
 import configFactory from '@src/config'
 import deps from '@src/deps'

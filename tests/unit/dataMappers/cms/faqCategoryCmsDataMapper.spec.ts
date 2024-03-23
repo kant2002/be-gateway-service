@@ -1,4 +1,4 @@
-import { ProfileFeature, SessionType } from '@diia-inhouse/types'
+import { ProfileFeature, SessionType } from '@kant2002-diia-inhouse/types'
 
 import FaqCategoryCmsDataMapper from '@dataMappers/cms/faqCategoryCmsDataMapper'
 import FaqCmsDataMapper from '@dataMappers/cms/faqCmsDataMapper'

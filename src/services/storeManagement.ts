@@ -1,6 +1,6 @@
-import { InternalServerError } from '@diia-inhouse/errors'
-import { StoreService, StoreTag } from '@diia-inhouse/redis'
-import { Logger } from '@diia-inhouse/types'
+import { InternalServerError } from '@kant2002-diia-inhouse/errors'
+import { StoreService, StoreTag } from '@kant2002-diia-inhouse/redis'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 export default class StoreManagementService {
     constructor(

@@ -1,4 +1,4 @@
-import TestKit from '@diia-inhouse/test'
+import TestKit from '@kant2002-diia-inhouse/test'
 
 export interface TestDeps {
     identifier: IdentifierService

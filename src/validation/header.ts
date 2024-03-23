@@ -1,4 +1,4 @@
-import { PlatformType } from '@diia-inhouse/types'
+import { PlatformType } from '@kant2002-diia-inhouse/types'
 
 import { AppConfig } from '@interfaces/types/config'
 

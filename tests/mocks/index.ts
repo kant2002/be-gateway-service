@@ -1,8 +1,8 @@
 import { AsyncLocalStorage } from 'async_hooks'
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { QueueContext } from '@diia-inhouse/diia-queue'
-import { mockClass } from '@diia-inhouse/test'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { QueueContext } from '@kant2002-diia-inhouse/diia-queue'
+import { mockClass } from '@kant2002-diia-inhouse/test'
 
 export const logger = new (mockClass(DiiaLogger))()
 

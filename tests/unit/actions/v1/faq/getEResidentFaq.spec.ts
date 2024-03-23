@@ -1,7 +1,7 @@
-import { DatabaseService } from '@diia-inhouse/db'
-import { StoreService } from '@diia-inhouse/redis'
-import { mockClass } from '@diia-inhouse/test'
-import { SessionType } from '@diia-inhouse/types'
+import { DatabaseService } from '@kant2002-diia-inhouse/db'
+import { StoreService } from '@kant2002-diia-inhouse/redis'
+import { mockClass } from '@kant2002-diia-inhouse/test'
+import { SessionType } from '@kant2002-diia-inhouse/types'
 
 import GetEResidentFaqAction from '@actions/v1/faq/getEResidentFaq'
 

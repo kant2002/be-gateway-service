@@ -1,5 +1,5 @@
-import { ProfileFeature } from '@diia-inhouse/types'
-import { ValidationRule } from '@diia-inhouse/validators'
+import { ProfileFeature } from '@kant2002-diia-inhouse/types'
+import { ValidationRule } from '@kant2002-diia-inhouse/validators'
 
 import { FaqParameterType } from '@interfaces/models/faqCategory'
 

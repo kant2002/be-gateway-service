@@ -1,6 +1,6 @@
-import { CmsCollectionType, CmsService } from '@diia-inhouse/cms'
-import { SessionType, UserFeatures } from '@diia-inhouse/types'
-import { profileFeaturesToList } from '@diia-inhouse/utils'
+import { CmsCollectionType, CmsService } from '@kant2002-diia-inhouse/cms'
+import { SessionType, UserFeatures } from '@kant2002-diia-inhouse/types'
+import { profileFeaturesToList } from '@kant2002-diia-inhouse/utils'
 
 import FaqCategoryCmsDataMapper from '@dataMappers/cms/faqCategoryCmsDataMapper'
 

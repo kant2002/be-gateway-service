@@ -6,14 +6,14 @@ jest.mock('awilix', () => {
     return { ...originAwilix, listModules: (): unknown => originAwilix.listModules('src/routes/*.ts') }
 })
 
-import { AuthService } from '@diia-inhouse/crypto'
-import Logger from '@diia-inhouse/diia-logger'
-import { MetricsService } from '@diia-inhouse/diia-metrics'
-import { EventBus, ExternalCommunicator } from '@diia-inhouse/diia-queue'
-import { Env, EnvService } from '@diia-inhouse/env'
-import { CacheService, StoreService } from '@diia-inhouse/redis'
-import { mockClass, mockInstance } from '@diia-inhouse/test'
-import { AlsData, HttpMethod } from '@diia-inhouse/types'
+import { AuthService } from '@kant2002-diia-inhouse/crypto'
+import Logger from '@kant2002-diia-inhouse/diia-logger'
+import { MetricsService } from '@kant2002-diia-inhouse/diia-metrics'
+import { EventBus, ExternalCommunicator } from '@kant2002-diia-inhouse/diia-queue'
+import { Env, EnvService } from '@kant2002-diia-inhouse/env'
+import { CacheService, StoreService } from '@kant2002-diia-inhouse/redis'
+import { mockClass, mockInstance } from '@kant2002-diia-inhouse/test'
+import { AlsData, HttpMethod } from '@kant2002-diia-inhouse/types'
 
 import AuthenticateMiddleware from '@src/middlewares/authenticate'
 import ExternalMiddleware from '@src/middlewares/external'

@@ -1,6 +1,6 @@
-jest.mock('@diia-inhouse/diia-app')
+jest.mock('@kant2002-diia-inhouse/diia-app')
 
-import { Application, LoadDepsFromFolderOptions, ServiceContext, ServiceOperator } from '@diia-inhouse/diia-app'
+import { Application, LoadDepsFromFolderOptions, ServiceContext, ServiceOperator } from '@kant2002-diia-inhouse/diia-app'
 
 import { bootstrap } from '@src/bootstrap'
 import config from '@src/config'

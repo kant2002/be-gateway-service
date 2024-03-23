@@ -11,12 +11,12 @@ multer.memoryStorage = jest.fn()
 
 jest.mock('multer', () => multer)
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { EnvService } from '@diia-inhouse/env'
-import { AccessDeniedError, BadRequestError, UnauthorizedError } from '@diia-inhouse/errors'
-import { CacheService, RedisConfig } from '@diia-inhouse/redis'
-import TestKit, { mockClass } from '@diia-inhouse/test'
-import { SessionType } from '@diia-inhouse/types'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { AccessDeniedError, BadRequestError, UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import { CacheService, RedisConfig } from '@kant2002-diia-inhouse/redis'
+import TestKit, { mockClass } from '@kant2002-diia-inhouse/test'
+import { SessionType } from '@kant2002-diia-inhouse/types'
 
 import { MimeType, ProcessCode, Request, Response } from '../../../src/interfaces'
 import { AppRoute, FileSize } from '../../../src/interfaces/routes/appRoute'

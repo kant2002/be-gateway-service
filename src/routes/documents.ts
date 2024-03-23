@@ -1,4 +1,4 @@
-import { ActionVersion, HttpMethod, ProfileFeature, SessionType } from '@diia-inhouse/types'
+import { ActionVersion, HttpMethod, ProfileFeature, SessionType } from '@kant2002-diia-inhouse/types'
 
 import { RouteHeaderRawName } from '@interfaces/index'
 import { ProfileFeatureExpression } from '@interfaces/profileFeature'

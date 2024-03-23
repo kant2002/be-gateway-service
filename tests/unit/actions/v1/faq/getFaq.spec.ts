@@ -2,12 +2,12 @@ const utilsMock = {
     extractProfileFeatures: jest.fn(),
 }
 
-jest.mock('@diia-inhouse/utils', () => utilsMock)
+jest.mock('@kant2002-diia-inhouse/utils', () => utilsMock)
 
-import { DatabaseService } from '@diia-inhouse/db'
-import { StoreService } from '@diia-inhouse/redis'
-import TestKit, { mockClass } from '@diia-inhouse/test'
-import { UserActionArguments } from '@diia-inhouse/types'
+import { DatabaseService } from '@kant2002-diia-inhouse/db'
+import { StoreService } from '@kant2002-diia-inhouse/redis'
+import TestKit, { mockClass } from '@kant2002-diia-inhouse/test'
+import { UserActionArguments } from '@kant2002-diia-inhouse/types'
 
 import GetFaqAction from '@actions/v1/faq/getFaq'
 

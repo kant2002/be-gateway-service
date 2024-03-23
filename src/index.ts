@@ -1,4 +1,4 @@
-import { initTracing } from '@diia-inhouse/diia-app'
+import { initTracing } from '@kant2002-diia-inhouse/diia-app'
 
 const serviceName = 'Gateway'
 

@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/no-use-before-define */
 
-import { ProfileFeature } from '@diia-inhouse/types'
+import { ProfileFeature } from '@kant2002-diia-inhouse/types'
 
 type ProfileFeatureChecker = (feature: ProfileFeature) => boolean
 

@@ -1,8 +1,8 @@
 const initTracing = jest.fn()
 const bootstrap = jest.fn()
 
-jest.mock('@diia-inhouse/diia-app', () => ({
-    ...jest.requireActual('@diia-inhouse/diia-app'),
+jest.mock('@kant2002-diia-inhouse/diia-app', () => ({
+    ...jest.requireActual('@kant2002-diia-inhouse/diia-app'),
     initTracing,
 }))
 

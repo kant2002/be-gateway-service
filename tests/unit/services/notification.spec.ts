@@ -1,8 +1,8 @@
 import { randomUUID } from 'crypto'
 
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import { ActionSession } from '@diia-inhouse/types'
+import { ActionSession } from '@kant2002-diia-inhouse/types'
 
 import NotificationService from '@src/services/notification'
 

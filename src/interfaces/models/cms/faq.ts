@@ -1,5 +1,5 @@
-import { CmsBaseAttributes, CmsEntries } from '@diia-inhouse/cms'
-import { ProfileFeature, SessionType } from '@diia-inhouse/types'
+import { CmsBaseAttributes, CmsEntries } from '@kant2002-diia-inhouse/cms'
+import { ProfileFeature, SessionType } from '@kant2002-diia-inhouse/types'
 
 import { FaqParameter } from '@interfaces/models/faqCategory'
 

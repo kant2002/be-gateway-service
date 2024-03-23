@@ -2,8 +2,8 @@ import { AsyncLocalStorage } from 'async_hooks'
 
 import { isEmpty } from 'lodash'
 
-import { BadRequestError } from '@diia-inhouse/errors'
-import { ActionVersion, AlsData } from '@diia-inhouse/types'
+import { BadRequestError } from '@kant2002-diia-inhouse/errors'
+import { ActionVersion, AlsData } from '@kant2002-diia-inhouse/types'
 
 import HeaderValidation from '../validation/header'
 

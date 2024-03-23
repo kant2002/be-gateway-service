@@ -1,4 +1,4 @@
-import TestKit, { mockClass } from '@diia-inhouse/test'
+import TestKit, { mockClass } from '@kant2002-diia-inhouse/test'
 
 import GetAppVersionAction from '@actions/v1/getAppVersion'
 

@@ -1,6 +1,6 @@
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import { ActionVersion, ProfileFeature } from '@diia-inhouse/types'
+import { ActionVersion, ProfileFeature } from '@kant2002-diia-inhouse/types'
 
 import { UserProfileFeatures } from '@interfaces/services/user'
 

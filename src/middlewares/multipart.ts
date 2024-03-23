@@ -2,7 +2,7 @@ import { IncomingMessage } from 'http'
 
 import formidable from 'formidable'
 
-import { Logger } from '@diia-inhouse/types'
+import { Logger } from '@kant2002-diia-inhouse/types'
 
 import { MimeType, Request, Response, RouteHeaderRawName } from '@interfaces/index'
 import { MiddlewareNext } from '@interfaces/middlewares'

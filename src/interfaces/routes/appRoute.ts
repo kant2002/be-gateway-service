@@ -1,7 +1,7 @@
 import { Field } from 'multer'
 
-import { ExternalEvent } from '@diia-inhouse/diia-queue'
-import { Env } from '@diia-inhouse/env'
+import { ExternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { Env } from '@kant2002-diia-inhouse/env'
 import {
     ActionVersion,
     HttpMethod,
@@ -9,7 +9,7 @@ import {
     PortalUserPetitionPermissions,
     PortalUserPollPermissions,
     SessionType,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import { ExternalAlias, MimeType, Proxy, Route, RouteHeaderRawName } from '@interfaces/index'
 import { ProfileFeatureExpression } from '@interfaces/profileFeature'

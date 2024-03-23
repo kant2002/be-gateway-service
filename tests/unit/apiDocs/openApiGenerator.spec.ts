@@ -1,6 +1,6 @@
-import { ACTION_RESPONSE } from '@diia-inhouse/diia-app'
+import { ACTION_RESPONSE } from '@kant2002-diia-inhouse/diia-app'
 
-import { ActionVersion, HttpMethod, SessionType } from '@diia-inhouse/types'
+import { ActionVersion, HttpMethod, SessionType } from '@kant2002-diia-inhouse/types'
 
 import OpenApiGenerator from '@src/apiDocs/openApiGenerator'
 import RoutesBuilder from '@src/routes'

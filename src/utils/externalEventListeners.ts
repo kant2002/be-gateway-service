@@ -1,8 +1,8 @@
 import { SetRequired } from 'type-fest'
 
-import { ExternalEvent, ExternalEventBus } from '@diia-inhouse/diia-queue'
-import { NotFoundError, ServiceUnavailableError } from '@diia-inhouse/errors'
-import { ActionVersion, PartnerSession, PartnerTokenData, SessionType } from '@diia-inhouse/types'
+import { ExternalEvent, ExternalEventBus } from '@kant2002-diia-inhouse/diia-queue'
+import { NotFoundError, ServiceUnavailableError } from '@kant2002-diia-inhouse/errors'
+import { ActionVersion, PartnerSession, PartnerTokenData, SessionType } from '@kant2002-diia-inhouse/types'
 
 import AuthenticateMiddleware from '../middlewares/authenticate'
 import RoutesBuilder from '../routes'

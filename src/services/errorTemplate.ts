@@ -1,8 +1,8 @@
 import { FilterQuery, UpdateQuery } from 'mongoose'
 
-import { MongoDBErrorCode } from '@diia-inhouse/db'
-import { BadRequestError, ModelNotFoundError } from '@diia-inhouse/errors'
-import { StoreService, StoreTag } from '@diia-inhouse/redis'
+import { MongoDBErrorCode } from '@kant2002-diia-inhouse/db'
+import { BadRequestError, ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import { StoreService, StoreTag } from '@kant2002-diia-inhouse/redis'
 
 import errorTemplateModel from '@models/errorTemplate'
 

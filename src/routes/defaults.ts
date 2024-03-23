@@ -1,4 +1,4 @@
-import { ActionVersion, SessionType } from '@diia-inhouse/types'
+import { ActionVersion, SessionType } from '@kant2002-diia-inhouse/types'
 
 import { RouteHeaderRawName } from '@interfaces/index'
 import { CustomHeader, RouteAuthParams } from '@interfaces/routes/appRoute'

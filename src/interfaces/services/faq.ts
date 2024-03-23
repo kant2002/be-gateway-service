@@ -1,4 +1,4 @@
-import { SessionType } from '@diia-inhouse/types'
+import { SessionType } from '@kant2002-diia-inhouse/types'
 
 import { FaqCategory } from '@interfaces/models/faqCategory'
 

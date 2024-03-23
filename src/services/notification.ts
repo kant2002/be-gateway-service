@@ -1,6 +1,6 @@
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import { ActionSession, ActionVersion, GenericObject } from '@diia-inhouse/types'
+import { ActionSession, ActionVersion, GenericObject } from '@kant2002-diia-inhouse/types'
 
 export default class NotificationService {
     private readonly serviceName: string = 'Notification'

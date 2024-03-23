@@ -2,12 +2,12 @@ import { cloneDeep, kebabCase, merge } from 'lodash'
 import { BrokerNode, Context, ServiceEvent, ServiceEventHandler } from 'moleculer'
 import { SetRequired } from 'type-fest'
 
-import { ACTION_RESPONSE } from '@diia-inhouse/diia-app'
+import { ACTION_RESPONSE } from '@kant2002-diia-inhouse/diia-app'
 
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { EnvService } from '@diia-inhouse/env'
-import { mockInstance } from '@diia-inhouse/test'
-import { HttpMethod } from '@diia-inhouse/types'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { mockInstance } from '@kant2002-diia-inhouse/test'
+import { HttpMethod } from '@kant2002-diia-inhouse/types'
 
 import OpenApiGenerator from '@src/apiDocs/openApiGenerator'
 import openApiNodeConnectedEvent from '@src/apiDocs/openApiNodeConnectedEvent'

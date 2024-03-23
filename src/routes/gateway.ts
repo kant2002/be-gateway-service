@@ -1,4 +1,4 @@
-import { Env } from '@diia-inhouse/env'
+import { Env } from '@kant2002-diia-inhouse/env'
 import {
     ActionVersion,
     DocumentType,
@@ -9,7 +9,7 @@ import {
     PartnerStoreScope,
     ProfileFeature,
     SessionType,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import { MimeType, RouteHeaderRawName } from '@interfaces/index'
 import { ProfileFeatureExpression } from '@interfaces/profileFeature'

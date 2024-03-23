@@ -1,6 +1,6 @@
 import { Document } from 'mongoose'
 
-import { ProfileFeature, SessionType } from '@diia-inhouse/types'
+import { ProfileFeature, SessionType } from '@kant2002-diia-inhouse/types'
 
 export enum FaqParameterType {
     Link = 'link',

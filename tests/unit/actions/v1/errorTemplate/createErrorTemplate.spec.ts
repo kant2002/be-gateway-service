@@ -1,5 +1,5 @@
-import { StoreService } from '@diia-inhouse/redis'
-import TestKit, { mockClass } from '@diia-inhouse/test'
+import { StoreService } from '@kant2002-diia-inhouse/redis'
+import TestKit, { mockClass } from '@kant2002-diia-inhouse/test'
 
 import CreateErrorTemplateAction from '@actions/v1/errorTemplate/createErrorTemplate'
 

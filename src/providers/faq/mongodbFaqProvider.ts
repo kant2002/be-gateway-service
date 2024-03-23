@@ -1,5 +1,5 @@
-import { ProfileFeature, SessionType, UserFeatures } from '@diia-inhouse/types'
-import { profileFeaturesToList } from '@diia-inhouse/utils'
+import { ProfileFeature, SessionType, UserFeatures } from '@kant2002-diia-inhouse/types'
+import { profileFeaturesToList } from '@kant2002-diia-inhouse/utils'
 
 import faqModel from '@models/faqCategory'
 

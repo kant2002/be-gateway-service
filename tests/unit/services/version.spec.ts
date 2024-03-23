@@ -1,5 +1,5 @@
-import { BadRequestError } from '@diia-inhouse/errors'
-import { PlatformType } from '@diia-inhouse/types'
+import { BadRequestError } from '@kant2002-diia-inhouse/errors'
+import { PlatformType } from '@kant2002-diia-inhouse/types'
 
 import VersionService from '@services/version'
 

@@ -1,8 +1,8 @@
-import { AppAction } from '@diia-inhouse/diia-app'
+import { AppAction } from '@kant2002-diia-inhouse/diia-app'
 
-import { UnauthorizedError } from '@diia-inhouse/errors'
-import { CacheService } from '@diia-inhouse/redis'
-import { ActionVersion, SessionType } from '@diia-inhouse/types'
+import { UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import { CacheService } from '@kant2002-diia-inhouse/redis'
+import { ActionVersion, SessionType } from '@kant2002-diia-inhouse/types'
 
 import { ActionResult, CustomActionArguments } from '@interfaces/actions/v1/unauthorizedSimulate'
 

@@ -1,7 +1,7 @@
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import { CacheService } from '@diia-inhouse/redis'
-import { mockClass } from '@diia-inhouse/test'
-import { PublicServiceCode } from '@diia-inhouse/types'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import { CacheService } from '@kant2002-diia-inhouse/redis'
+import { mockClass } from '@kant2002-diia-inhouse/test'
+import { PublicServiceCode } from '@kant2002-diia-inhouse/types'
 
 import PublicServiceDataMapper from '@src/dataMappers/publicServiceDataMapper'
 

@@ -1,5 +1,5 @@
-import { CacheService } from '@diia-inhouse/redis'
-import { Logger, OnInit } from '@diia-inhouse/types'
+import { CacheService } from '@kant2002-diia-inhouse/redis'
+import { Logger, OnInit } from '@kant2002-diia-inhouse/types'
 
 import PublicServiceDataMapper from '@dataMappers/publicServiceDataMapper'
 

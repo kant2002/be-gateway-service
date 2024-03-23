@@ -1,4 +1,4 @@
-import { HttpMethod } from '@diia-inhouse/types'
+import { HttpMethod } from '@kant2002-diia-inhouse/types'
 
 import { DEFAULT_USER_AUTH, DEFAULT_USER_HEADERS } from '@src/routes/defaults'
 

@@ -1,8 +1,8 @@
 import { randomUUID } from 'crypto'
 
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import { ProfileFeature } from '@diia-inhouse/types'
+import { ProfileFeature } from '@kant2002-diia-inhouse/types'
 
 import UserService from '@services/user'
 

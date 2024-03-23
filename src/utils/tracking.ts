@@ -1,8 +1,8 @@
 import { Span, SpanStatusCode } from '@opentelemetry/api'
 
-import { MetricsService, RequestStatus, TotalRequestsLabelsMap } from '@diia-inhouse/diia-metrics'
-import { ErrorType } from '@diia-inhouse/errors'
-import { HttpStatusCode } from '@diia-inhouse/types'
+import { MetricsService, RequestStatus, TotalRequestsLabelsMap } from '@kant2002-diia-inhouse/diia-metrics'
+import { ErrorType } from '@kant2002-diia-inhouse/errors'
+import { HttpStatusCode } from '@kant2002-diia-inhouse/types'
 
 import { ResponseError } from '@interfaces/index'
 

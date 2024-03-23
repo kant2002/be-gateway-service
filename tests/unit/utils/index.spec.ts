@@ -1,4 +1,4 @@
-import { AccessDeniedError } from '@diia-inhouse/errors'
+import { AccessDeniedError } from '@kant2002-diia-inhouse/errors'
 
 import Utils from '@src/utils'
 

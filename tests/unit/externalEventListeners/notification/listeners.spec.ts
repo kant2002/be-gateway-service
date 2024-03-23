@@ -2,9 +2,9 @@ import { randomUUID } from 'crypto'
 
 import { SetRequired } from 'type-fest'
 
-import { ExternalEventBus } from '@diia-inhouse/diia-queue'
-import { ValidationError } from '@diia-inhouse/errors'
-import { PartnerSession } from '@diia-inhouse/types'
+import { ExternalEventBus } from '@kant2002-diia-inhouse/diia-queue'
+import { ValidationError } from '@kant2002-diia-inhouse/errors'
+import { PartnerSession } from '@kant2002-diia-inhouse/types'
 
 import NotificationDistributionCancelEventListener from '@src/externalEventListeners/notification/NotificationDistributionCancel'
 import NotificationDistributionCreateEventListener from '@src/externalEventListeners/notification/notificationDistributionCreate'

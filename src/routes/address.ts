@@ -1,4 +1,4 @@
-import { ActionVersion, HttpMethod, PartnerMaintenanceScope, PartnerScopeType, SessionType } from '@diia-inhouse/types'
+import { ActionVersion, HttpMethod, PartnerMaintenanceScope, PartnerScopeType, SessionType } from '@kant2002-diia-inhouse/types'
 
 import { RouteHeaderRawName } from '@interfaces/index'
 import { AppRoute } from '@interfaces/routes/appRoute'

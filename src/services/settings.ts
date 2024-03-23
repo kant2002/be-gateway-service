@@ -1,6 +1,6 @@
 import { compare as compareSemver } from 'compare-versions'
 
-import { AppUserActionHeaders } from '@diia-inhouse/types'
+import { AppUserActionHeaders } from '@kant2002-diia-inhouse/types'
 
 import NotificationService from '@services/notification'
 import VersionService from '@services/version'

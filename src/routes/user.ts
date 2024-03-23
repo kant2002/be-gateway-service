@@ -1,5 +1,5 @@
-import { Env } from '@diia-inhouse/env'
-import { ActionVersion, HttpMethod, ProfileFeature, SessionType } from '@diia-inhouse/types'
+import { Env } from '@kant2002-diia-inhouse/env'
+import { ActionVersion, HttpMethod, ProfileFeature, SessionType } from '@kant2002-diia-inhouse/types'
 
 import { DEFAULT_USER_AUTH, DEFAULT_USER_HEADERS } from '@src/routes/defaults'
 

@@ -3,7 +3,7 @@ import { Service } from 'moleculer'
 import { OpenAPIV3 } from 'openapi-types'
 import { singular } from 'pluralize'
 
-import { ACTION_RESPONSE, MoleculerService } from '@diia-inhouse/diia-app'
+import { ACTION_RESPONSE, MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
 import {
     ActionVersion,
@@ -13,8 +13,8 @@ import {
     PlatformType,
     ServiceActionArguments,
     SessionType,
-} from '@diia-inhouse/types'
-import { ValidationRule } from '@diia-inhouse/validators'
+} from '@kant2002-diia-inhouse/types'
+import { ValidationRule } from '@kant2002-diia-inhouse/validators'
 
 import RoutesBuilder from '@src/routes'
 

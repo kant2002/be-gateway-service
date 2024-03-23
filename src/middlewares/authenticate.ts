@@ -1,9 +1,9 @@
 import pTimeout from 'p-timeout'
 
-import { AuthService as AuthCryptoService } from '@diia-inhouse/crypto'
-import { EventBus, InternalEvent } from '@diia-inhouse/diia-queue'
-import { AccessDeniedError, BadRequestError, UnauthorizedError } from '@diia-inhouse/errors'
-import { CacheService, StoreService } from '@diia-inhouse/redis'
+import { AuthService as AuthCryptoService } from '@kant2002-diia-inhouse/crypto'
+import { EventBus, InternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { AccessDeniedError, BadRequestError, UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import { CacheService, StoreService } from '@kant2002-diia-inhouse/redis'
 import {
     AcquirerTokenData,
     ActionSession,
@@ -26,7 +26,7 @@ import {
     UserSession,
     UserTokenData,
     VerifiedBaseTokenData,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import PartnerService from '@services/partner'
 import UserService from '@services/user'

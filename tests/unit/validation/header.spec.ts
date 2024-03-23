@@ -1,6 +1,6 @@
 import { randomUUID } from 'crypto'
 
-import { PlatformType } from '@diia-inhouse/types'
+import { PlatformType } from '@kant2002-diia-inhouse/types'
 
 import HeaderValidation from '@src/validation/header'
 

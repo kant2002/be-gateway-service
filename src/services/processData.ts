@@ -3,7 +3,7 @@ import { resolve as resolvePath } from 'path'
 
 import { listModules } from 'awilix'
 
-import { ActionSession, OnInit, SessionType } from '@diia-inhouse/types'
+import { ActionSession, OnInit, SessionType } from '@kant2002-diia-inhouse/types'
 
 import { ProcessData } from '@interfaces/services/processData'
 import { AppConfig } from '@interfaces/types/config'

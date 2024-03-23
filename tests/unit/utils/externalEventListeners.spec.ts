@@ -7,16 +7,16 @@ jest.mock('@src/utils', () => utilsMock)
 
 import { SetRequired } from 'type-fest'
 
-import { MoleculerService } from '@diia-inhouse/diia-app'
+import { MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import { AuthService } from '@diia-inhouse/crypto'
-import { EventBus, EventMessageHandler, ExternalEvent, ExternalEventBus, MessagePayload } from '@diia-inhouse/diia-queue'
-import { RabbitMQProvider } from '@diia-inhouse/diia-queue/dist/types/providers/rabbitmq'
-import { EnvService } from '@diia-inhouse/env'
-import { NotFoundError, ServiceUnavailableError } from '@diia-inhouse/errors'
-import { CacheService, StoreService } from '@diia-inhouse/redis'
-import TestKit, { mockClass } from '@diia-inhouse/test'
-import { ActionVersion, HttpMethod, Logger, PartnerAcquirersScope, PartnerScopeType, SessionType } from '@diia-inhouse/types'
+import { AuthService } from '@kant2002-diia-inhouse/crypto'
+import { EventBus, EventMessageHandler, ExternalEvent, ExternalEventBus, MessagePayload } from '@kant2002-diia-inhouse/diia-queue'
+import { RabbitMQProvider } from '@kant2002-diia-inhouse/diia-queue/dist/types/providers/rabbitmq'
+import { EnvService } from '@kant2002-diia-inhouse/env'
+import { NotFoundError, ServiceUnavailableError } from '@kant2002-diia-inhouse/errors'
+import { CacheService, StoreService } from '@kant2002-diia-inhouse/redis'
+import TestKit, { mockClass } from '@kant2002-diia-inhouse/test'
+import { ActionVersion, HttpMethod, Logger, PartnerAcquirersScope, PartnerScopeType, SessionType } from '@kant2002-diia-inhouse/types'
 
 import AuthenticateMiddleware from '@src/middlewares/authenticate'
 import RoutesBuilder from '@src/routes'

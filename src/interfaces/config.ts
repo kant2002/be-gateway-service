@@ -1,4 +1,4 @@
-import { AuthConfig as CoreAuthConfig } from '@diia-inhouse/crypto'
+import { AuthConfig as CoreAuthConfig } from '@kant2002-diia-inhouse/crypto'
 
 interface MinioConfigDisabled {
     isEnabled: false

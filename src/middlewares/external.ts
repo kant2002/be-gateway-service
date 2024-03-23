@@ -1,6 +1,6 @@
-import { ExternalCommunicator } from '@diia-inhouse/diia-queue'
-import { Logger } from '@diia-inhouse/types'
-import { utils } from '@diia-inhouse/utils'
+import { ExternalCommunicator } from '@kant2002-diia-inhouse/diia-queue'
+import { Logger } from '@kant2002-diia-inhouse/types'
+import { utils } from '@kant2002-diia-inhouse/utils'
 
 import { jsonResponseTransformer } from '@utils/transformers'
 

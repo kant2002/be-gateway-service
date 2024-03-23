@@ -1,7 +1,7 @@
-import { AppAction } from '@diia-inhouse/diia-app'
+import { AppAction } from '@kant2002-diia-inhouse/diia-app'
 
-import { ActionVersion, SessionType } from '@diia-inhouse/types'
-import { UserActionArguments } from '@diia-inhouse/types/dist/types/actions/actionArguments'
+import { ActionVersion, SessionType } from '@kant2002-diia-inhouse/types'
+import { UserActionArguments } from '@kant2002-diia-inhouse/types/dist/types/actions/actionArguments'
 
 import FaqService from '@services/faq'
 

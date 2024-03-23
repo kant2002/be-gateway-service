@@ -1,5 +1,5 @@
-import DiiaLogger from '@diia-inhouse/diia-logger'
-import TestKit, { mockClass } from '@diia-inhouse/test'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
+import TestKit, { mockClass } from '@kant2002-diia-inhouse/test'
 
 import TestAcquirerProviderResponseAction from '@actions/v1/testAcquirerProviderResponse'
 

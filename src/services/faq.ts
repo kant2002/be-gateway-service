@@ -1,7 +1,7 @@
-import { DatabaseService, MongoDBErrorCode } from '@diia-inhouse/db'
-import { BadRequestError, DatabaseError, ModelNotFoundError } from '@diia-inhouse/errors'
-import { StoreService, StoreTag } from '@diia-inhouse/redis'
-import { SessionType, UserFeatures } from '@diia-inhouse/types'
+import { DatabaseService, MongoDBErrorCode } from '@kant2002-diia-inhouse/db'
+import { BadRequestError, DatabaseError, ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import { StoreService, StoreTag } from '@kant2002-diia-inhouse/redis'
+import { SessionType, UserFeatures } from '@kant2002-diia-inhouse/types'
 
 import Utils from '@src/utils'
 

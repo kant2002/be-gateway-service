@@ -1,8 +1,8 @@
-import { AppAction } from '@diia-inhouse/diia-app'
+import { AppAction } from '@kant2002-diia-inhouse/diia-app'
 
-import { StoreTag } from '@diia-inhouse/redis'
-import { ActionVersion, SessionType } from '@diia-inhouse/types'
-import { ValidationSchema } from '@diia-inhouse/validators'
+import { StoreTag } from '@kant2002-diia-inhouse/redis'
+import { ActionVersion, SessionType } from '@kant2002-diia-inhouse/types'
+import { ValidationSchema } from '@kant2002-diia-inhouse/validators'
 
 import StoreManagementService from '@services/storeManagement'
 

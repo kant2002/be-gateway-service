@@ -8,9 +8,9 @@ import { resolve as resolvePath } from 'path'
 import { listModules } from 'awilix'
 import { upperFirst } from 'lodash'
 
-import { ExternalEvent } from '@diia-inhouse/diia-queue'
-import { Env } from '@diia-inhouse/env'
-import { ActHeaders, ActionVersion, AlsData, Logger } from '@diia-inhouse/types'
+import { ExternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { Env } from '@kant2002-diia-inhouse/env'
+import { ActHeaders, ActionVersion, AlsData, Logger } from '@kant2002-diia-inhouse/types'
 
 import AuthenticateMiddleware from '@src/middlewares/authenticate'
 import ExternalMiddleware from '@src/middlewares/external'

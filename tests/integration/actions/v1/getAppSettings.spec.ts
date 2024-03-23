@@ -1,4 +1,4 @@
-import TestKit from '@diia-inhouse/test'
+import TestKit from '@kant2002-diia-inhouse/test'
 
 import GetAppSettings from '@actions/v1/getAppSettings'
 

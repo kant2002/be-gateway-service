@@ -1,7 +1,7 @@
-import { CmsEntriesMeta, CmsService, StrapiConfig } from '@diia-inhouse/cms'
-import { HttpService } from '@diia-inhouse/http'
-import { mockClass } from '@diia-inhouse/test'
-import { Logger, SessionType } from '@diia-inhouse/types'
+import { CmsEntriesMeta, CmsService, StrapiConfig } from '@kant2002-diia-inhouse/cms'
+import { HttpService } from '@kant2002-diia-inhouse/http'
+import { mockClass } from '@kant2002-diia-inhouse/test'
+import { Logger, SessionType } from '@kant2002-diia-inhouse/types'
 
 import { StrapiFaqProvider } from '@src/providers/faq'
 

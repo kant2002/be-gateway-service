@@ -1,4 +1,4 @@
-import { ACTION_RESPONSE, MoleculerService } from '@diia-inhouse/diia-app'
+import { ACTION_RESPONSE, MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
 export const moleculerService = <MoleculerService>{
     service: {

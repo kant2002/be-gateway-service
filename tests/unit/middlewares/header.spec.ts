@@ -1,8 +1,8 @@
 import { AsyncLocalStorage } from 'async_hooks'
 import { randomUUID } from 'crypto'
 
-import { BadRequestError } from '@diia-inhouse/errors'
-import { ActionVersion, AlsData } from '@diia-inhouse/types'
+import { BadRequestError } from '@kant2002-diia-inhouse/errors'
+import { ActionVersion, AlsData } from '@kant2002-diia-inhouse/types'
 
 import AuthenticateMiddleware from '@src/middlewares/authenticate'
 import HeaderMiddleware from '@src/middlewares/header'

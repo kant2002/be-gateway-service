@@ -4,7 +4,7 @@ import { resolve } from 'path'
 
 import { Db } from 'mongodb'
 
-import { SessionType } from '@diia-inhouse/types'
+import { SessionType } from '@kant2002-diia-inhouse/types'
 
 // eslint-disable-next-line @typescript-eslint/no-var-requires
 require('dotenv-flow').config({ silent: true })

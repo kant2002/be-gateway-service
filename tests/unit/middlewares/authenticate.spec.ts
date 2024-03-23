@@ -1,9 +1,9 @@
 import { mock } from 'jest-mock-extended'
 
-import { AuthService } from '@diia-inhouse/crypto'
-import { EventBus, InternalEvent } from '@diia-inhouse/diia-queue'
-import { AccessDeniedError, BadRequestError, UnauthorizedError } from '@diia-inhouse/errors'
-import { CacheService, StoreService } from '@diia-inhouse/redis'
+import { AuthService } from '@kant2002-diia-inhouse/crypto'
+import { EventBus, InternalEvent } from '@kant2002-diia-inhouse/diia-queue'
+import { AccessDeniedError, BadRequestError, UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import { CacheService, StoreService } from '@kant2002-diia-inhouse/redis'
 import {
     AcquirerTokenData,
     ActionVersion,
@@ -25,7 +25,7 @@ import {
     TokenData,
     UserTokenData,
     VerifiedBaseTokenData,
-} from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/types'
 
 import AuthenticateMiddleware from '@src/middlewares/authenticate'
 

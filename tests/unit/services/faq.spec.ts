@@ -10,10 +10,10 @@ jest.mock('@models/faqCategory', () => ({
     default: faqCategoryModel,
 }))
 
-import { DatabaseService, MongoDBErrorCode } from '@diia-inhouse/db'
-import { ApiError, BadRequestError, DatabaseError, ModelNotFoundError } from '@diia-inhouse/errors'
-import { StoreService } from '@diia-inhouse/redis'
-import { SessionType } from '@diia-inhouse/types'
+import { DatabaseService, MongoDBErrorCode } from '@kant2002-diia-inhouse/db'
+import { ApiError, BadRequestError, DatabaseError, ModelNotFoundError } from '@kant2002-diia-inhouse/errors'
+import { StoreService } from '@kant2002-diia-inhouse/redis'
+import { SessionType } from '@kant2002-diia-inhouse/types'
 
 import FaqService from '@src/services/faq'
 

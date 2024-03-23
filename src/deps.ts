@@ -2,12 +2,12 @@ import { AwilixContainer, Lifetime, asClass, asFunction, asValue } from 'awilix'
 import { once } from 'lodash'
 import { ServiceEvents } from 'moleculer'
 
-import { DepsFactoryFn, DepsResolver, MoleculerService } from '@diia-inhouse/diia-app'
+import { DepsFactoryFn, DepsResolver, MoleculerService } from '@kant2002-diia-inhouse/diia-app'
 
-import { CmsService } from '@diia-inhouse/cms'
-import { AuthService, CryptoDeps } from '@diia-inhouse/crypto'
-import { DatabaseService, DbType } from '@diia-inhouse/db'
-import DiiaLogger from '@diia-inhouse/diia-logger'
+import { CmsService } from '@kant2002-diia-inhouse/cms'
+import { AuthService, CryptoDeps } from '@kant2002-diia-inhouse/crypto'
+import { DatabaseService, DbType } from '@kant2002-diia-inhouse/db'
+import DiiaLogger from '@kant2002-diia-inhouse/diia-logger'
 import {
     EventBus,
     EventMessageHandler,
@@ -19,11 +19,11 @@ import {
     QueueDeps,
     ScheduledTask,
     ScheduledTaskQueueName,
-} from '@diia-inhouse/diia-queue'
-import { HealthCheck } from '@diia-inhouse/healthcheck'
-import { HttpDeps, HttpService } from '@diia-inhouse/http'
-import { CacheService, PubSubService, RedisDeps, RedlockService, StoreService } from '@diia-inhouse/redis'
-import { HttpProtocol } from '@diia-inhouse/types'
+} from '@kant2002-diia-inhouse/diia-queue'
+import { HealthCheck } from '@kant2002-diia-inhouse/healthcheck'
+import { HttpDeps, HttpService } from '@kant2002-diia-inhouse/http'
+import { CacheService, PubSubService, RedisDeps, RedlockService, StoreService } from '@kant2002-diia-inhouse/redis'
+import { HttpProtocol } from '@kant2002-diia-inhouse/types'
 
 import OpenApiGenerator from './apiDocs/openApiGenerator'
 import openApiNodeConnectedEvent from './apiDocs/openApiNodeConnectedEvent'

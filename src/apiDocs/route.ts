@@ -3,7 +3,7 @@ import * as path from 'path'
 import * as ejs from 'ejs'
 import { kebabCase, startCase } from 'lodash'
 
-import { GenericObject, Logger } from '@diia-inhouse/types'
+import { GenericObject, Logger } from '@kant2002-diia-inhouse/types'
 
 import OpenApiGenerator from '@src/apiDocs/openApiGenerator'
 

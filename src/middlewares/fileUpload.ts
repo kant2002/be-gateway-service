@@ -1,8 +1,8 @@
 import multer from 'multer'
 
-import { AccessDeniedError, BadRequestError, UnauthorizedError } from '@diia-inhouse/errors'
-import { CacheService } from '@diia-inhouse/redis'
-import { ActionSession, Logger } from '@diia-inhouse/types'
+import { AccessDeniedError, BadRequestError, UnauthorizedError } from '@kant2002-diia-inhouse/errors'
+import { CacheService } from '@kant2002-diia-inhouse/redis'
+import { ActionSession, Logger } from '@kant2002-diia-inhouse/types'
 
 import { FilesValidator } from '@src/validation/files'
 import { ValidationSandBox } from '@src/validation/sandbox'

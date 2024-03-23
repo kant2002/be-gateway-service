@@ -1,6 +1,6 @@
-import { AppAction } from '@diia-inhouse/diia-app'
+import { AppAction } from '@kant2002-diia-inhouse/diia-app'
 
-import { ActionVersion, Logger, SessionType } from '@diia-inhouse/types'
+import { ActionVersion, Logger, SessionType } from '@kant2002-diia-inhouse/types'
 
 import { ActionResult } from '@interfaces/actions/v1/testAcquirerProviderEncodedData'
 
