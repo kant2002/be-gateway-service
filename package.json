@@ -35,7 +35,7 @@
         "@kant2002-diia-inhouse/db": "^3.1.1",
         "@kant2002-diia-inhouse/diia-app": "^12.2.0",
         "@kant2002-diia-inhouse/diia-logger": "^2.10.0",
-        "@kant2002-diia-inhouse/diia-metrics": "^3.6.0",
+        "@kant2002-diia-inhouse/diia-metrics": "3.6.2-0000",
         "@kant2002-diia-inhouse/diia-queue": "^5.10.1",
         "@kant2002-diia-inhouse/env": "^1.5.0",
         "@kant2002-diia-inhouse/errors": "^1.6.1",
